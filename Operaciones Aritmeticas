@@ -1,0 +1,39 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float A,B,C;
+    
+    cout<<"ingrese el primer valor a sumar";
+    cin>>A;
+    cout<<"ingrese el segundo valor a sumar";
+    cin>>B;
+    C=A+B;
+    cout<<"el resultado de la suma es: "<<C;
+    
+    cout<<"ingrese el primer valor que se le va a restar: ";
+    cin>>A;
+    cout<<"ingrese el valor que va a restar al primero: ";
+    cin>>B;
+    C=A-B;
+    cout<<"el resultado de la resta es: ";
+    
+    
+    cout<<"ingrese el primer valor a multiplicar";
+    cin>>A;
+    cout<<"ingrese el segundo valor a multiplicar";
+    cin>>B;
+    C=A*B;
+    cout<<"el resultado de la multiplicacion es: "<<C;
+    
+    cout<<"ingrese el dividendo: ";
+    cin>>A;
+    cout<<"ingrese el divisor";
+    cin>>B;
+    C=A/B;
+    cout<<"el resultado de la division es: "<<C;
+   
+    return 0;
+}
