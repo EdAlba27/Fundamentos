@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a,b,c,D, x1,x2,ctte;
+    cout<<"Ingrese a: ";
+    cin>>a;
+    cout<<"Ingrese b: ";
+    cin>>b;
+    cout<<"Ingrese c: ";
+    cin>>c;
+    ctte=1/2;
+    if(a==0) cout<<"Solucion no valida";
+    else{
+        D=b*b-4*a*c;
+        if(D==0){
+            cout<<"Solucion unica: ";
+            cout<<-b/2*a;
+        }else{
+            if(D<0) cout<<"Soluciones imaginarias";
+            else{
+                x1=(-b+(D^ctte))/(2*a);
+                x2=(-b-(D^ctte))/(2*a);
+                cout<<"Las soluciones son: "<<x1<<" y tambien "<<x2;
+            }
+        }
+    }
+
+    return 0;
+}
