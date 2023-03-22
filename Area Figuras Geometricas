@@ -1,0 +1,39 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float Acir, Acua, Arec, Atri;
+    float b,h,l,r,bt,ht;
+    
+    cout<<"Area Circunsferencia"<<endl;
+    cout<<"Ingrese el valor del radio de la circunsferencia: ";
+    cin>>r;
+    Acir=3.141592*r*r;
+    cout<<"El area de la circunsferencia es: "<<Acir<<endl<<endl;
+    
+    cout<<"Area Cuadrado"<<endl;
+    cout<<"Ingrese el valor del lado del cuadrado: ";
+    cin>>l;
+    Acua=l*l;
+    cout<<"El area del cuadrado es: "<<Acua<<endl<<endl;
+    
+    cout<<"Area Rectangulo"<<endl;
+    cout<<"Ingrese el valor de la base del rectangulo: ";
+    cin>>b;
+    cout<<"Ingrese el valor de la altura del rectangulo: ";
+    cin>>h;
+    Arec=b*h;
+    cout<<"El area del rectangulo es: "<<Arec<<endl<<endl;
+    
+    cout<<"Area Triangulo"<<endl;
+    cout<<"Ingrese el valor de la base del triangulo: ";
+    cin>>bt;
+    cout<<"Ingrese el valor de la altura del triangulo: ";
+    cin>>ht;
+    Atri=bt*ht/2;
+    cout<<"El area del triangulo es: "<<Atri;
+    
+    return 0;
+}
